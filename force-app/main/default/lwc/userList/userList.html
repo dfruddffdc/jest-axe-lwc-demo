@@ -1,3 +1,9 @@
 <template>
-    
+  <lightning-card title="Users" icon-name="utility:user">
+    <ul class="slds-m-around_medium">
+      <template for:each={users} for:item="user">
+        <li key={user.Id}>{user.name} ({user.company.name})</li>
+      </template>
+    </ul>
+  </lightning-card>
 </template>
