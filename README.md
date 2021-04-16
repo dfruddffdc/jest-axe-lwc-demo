@@ -28,6 +28,11 @@ Deployment:
     ```sh
     sfdx force:source:push
     ```
-
-Assign permission set: TODO
-Navigate to the component: TODO
+1. Assign permissions to the current user
+    ```sh
+    sfdx force:user:permset:assign -n JestAxeLwcDemo
+    ```
+1. Open the org, on the User List tab
+    ```sh
+    sfdx force:org:open -p lightning/n/UserList
+    ```
