@@ -1,31 +1,10 @@
-import { createElement } from "lwc";
+import { clearUp, flushPromises, getCreateComponent } from "c/testUtils";
 import { axe, toHaveNoViolations } from "jest-axe";
 import UserList from "c/userList";
 
 expect.extend(toHaveNoViolations);
 
-function clearUp() {
-  const body = document.body;
-
-  while (body.firstChild) {
-    body.removeChild(body.firstChild);
-  }
-
-  jest.clearAllMocks();
-}
-
-function createComponent() {
-  const component = createElement("c-user-list", {
-    is: UserList
-  });
-  document.body.appendChild(component);
-
-  return component;
-}
-
-function flushPromises() {
-  return new Promise(setImmediate);
-}
+const createComponent = getCreateComponent(UserList, "c-user-list");
 
 describe("c-user-list", () => {
   afterEach(clearUp);
