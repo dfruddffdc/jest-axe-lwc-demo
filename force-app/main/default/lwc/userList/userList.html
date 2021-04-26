@@ -2,14 +2,15 @@
   <lightning-card title="Users" icon-name="standard:user">
     <ul class="slds-has-dividers_bottom-space slds-p-around_medium">
       <template for:each={users} for:item="user">
-        <c-user-tile
-          class="slds-item"
-          company-name={user.company.name}
-          key={user.Id}
-          name={user.name}
-          role={user.role}
-          website={user.website}
-        ></c-user-tile>
+        <div key={user.id}>
+          <c-user-tile
+            class="slds-item"
+            company-name={user.company.name}
+            name={user.name}
+            role={user.role}
+            website={user.website}
+          ></c-user-tile>
+        </div>
       </template>
     </ul>
   </lightning-card>
