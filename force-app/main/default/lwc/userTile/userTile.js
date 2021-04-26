@@ -6,7 +6,7 @@ export default class UserTile extends LightningElement {
   @api role;
   @api website;
 
-  get userClass() {
-    return "slds-p-around_x-small " + this.role;
+  get containerClass() {
+    return "slds-box " + this.role;
   }
 }
