@@ -1,6 +1,10 @@
 <template>
   <lightning-tile label={name} type="media">
-    <lightning-icon slot="media" icon-name="utility:user"></lightning-icon>
+    <lightning-icon
+      class={userClass}
+      slot="media"
+      icon-name="utility:user"
+    ></lightning-icon>
     <ul class="slds-list_horizontal slds-has-dividers_right">
       <li class="slds-item">{companyName}</li>
       <li class="slds-item"><a href={website}>{website}</a></li>

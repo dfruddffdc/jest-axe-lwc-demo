@@ -6,6 +6,7 @@ const users = [
     name: "Leanne Graham",
     username: "Bret",
     email: "Sincere@april.biz",
+    role: "sales",
     address: {
       street: "Kulas Light",
       suite: "Apt. 556",
@@ -26,6 +27,7 @@ const users = [
     name: "Ervin Howell",
     username: "Antonette",
     email: "Shanna@melissa.tv",
+    role: "sales",
     address: {
       street: "Victor Plains",
       suite: "Suite 879",
@@ -46,6 +48,7 @@ const users = [
     name: "Clementine Bauch",
     username: "Samantha",
     email: "Nathan@yesenia.net",
+    role: "developer",
     address: {
       street: "Douglas Extension",
       suite: "Suite 847",
@@ -66,6 +69,7 @@ const users = [
     name: "Patricia Lebsack",
     username: "Karianne",
     email: "Julianne.OConner@kory.org",
+    role: "sales",
     address: {
       street: "Hoeger Mall",
       suite: "Apt. 692",
@@ -86,6 +90,7 @@ const users = [
     name: "Chelsey Dietrich",
     username: "Kamren",
     email: "Lucio_Hettinger@annie.ca",
+    role: "sales",
     address: {
       street: "Skiles Walks",
       suite: "Suite 351",
@@ -106,6 +111,7 @@ const users = [
     name: "Mrs. Dennis Schulist",
     username: "Leopoldo_Corkery",
     email: "Karley_Dach@jasper.info",
+    role: "support",
     address: {
       street: "Norberto Crossing",
       suite: "Apt. 950",
@@ -126,6 +132,7 @@ const users = [
     name: "Kurtis Weissnat",
     username: "Elwyn.Skiles",
     email: "Telly.Hoeger@billy.biz",
+    role: "developer",
     address: {
       street: "Rex Trail",
       suite: "Suite 280",
@@ -146,6 +153,7 @@ const users = [
     name: "Nicholas Runolfsdottir V",
     username: "Maxime_Nienow",
     email: "Sherwood@rosamond.me",
+    role: "support",
     address: {
       street: "Ellsworth Summit",
       suite: "Suite 729",
@@ -166,6 +174,7 @@ const users = [
     name: "Glenna Reichert",
     username: "Delphine",
     email: "Chaim_McDermott@dana.io",
+    role: "support",
     address: {
       street: "Dayna Park",
       suite: "Suite 449",
@@ -186,6 +195,7 @@ const users = [
     name: "Clementina DuBuque",
     username: "Moriah.Stanton",
     email: "Rey.Padberg@karina.biz",
+    role: "sales",
     address: {
       street: "Kattie Turnpike",
       suite: "Suite 198",
