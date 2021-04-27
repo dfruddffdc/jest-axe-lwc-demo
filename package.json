@@ -26,8 +26,12 @@
       "eslint"
     ]
   },
-  "name": "salesforce-app",
+  "name": "jest-axe-lwc-demo",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dfruddffdc/jest-axe-lwc-demo"
+  },
   "scripts": {
     "lint": "npm run lint:lwc && npm run lint:aura",
     "lint:aura": "eslint **/aura/**",
