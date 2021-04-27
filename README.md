@@ -1,9 +1,8 @@
 # jest-axe-lwc-demo
 
-Description: TODO
-Screenshot: TODO
+![Sample app screenshot](/docs/jest-axe-lwc-demo.png)
 
-Deployment:
+A sample app for demonstrating tools for testing inclusive design.
 
 ## Deployment
 
